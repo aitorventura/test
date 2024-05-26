@@ -3,7 +3,7 @@ name: Deploy React App to GitHub Pages
 on:
   push:
     branches:
-      - main  # Despliega cuando haya un push a la rama principal
+      - master  # Despliega cuando haya un push a la rama principal
 
 jobs:
   build:
